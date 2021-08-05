@@ -1,0 +1,190 @@
+/*=== Body Reset ===*/
+body{
+    overflow-x: hidden;
+    color: #616971;
+}
+
+/*====== TOP BAR HEADER ======*/
+
+.top-bar {
+background: #7aaec4;
+height: 2.8rem;
+padding: .5rem 0;
+}
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/*======= NAVIGATION =======*/
+
+/*===.navbar-brand {
+
+}===*/
+.navbar {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+    z-index: 1;
+}
+.nav-item{
+    padding: .5rem;
+}
+.nav-link {
+    color: #5b5555!important;    
+}
+.nav-link.active,
+.nav-link:hover {
+    color: #4981b3!important;    
+}
+
+
+/*======= CAROUSEL ========*/
+
+#carousel{
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .4);    
+}
+.carousel-inner {
+    max-height: 38rem!important;
+}
+
+
+/*=== Change Carousel Transition Speed ===*/
+.carousel-caption {
+    position: absolute;
+    top: 37%;
+    transform: translateY(-50);
+    text-transform: uppercase;
+}
+.bg-custom {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 1rem;
+}
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);    
+}
+.border-primary {
+    border-top: .2rem solid #4981b3 !important;
+}
+.carousel-caption h3 {
+    font-size: 2.0rem;
+    text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1);    
+}
+.carousel-caption p {
+    font-size: 1rem;
+}
+.btn-lg {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-width: medium;
+    }
+/*=== Carousel Content ===*/
+
+
+
+/*=== FIXED BACKGROUND IMG ===*/
+.fixed {
+    background-image: url('../media/bus6.jpg');
+    position: fixed;
+}
+.fixed-background {
+    padding: 10rem 0;
+}
+
+/*=== Emoji Navbar ===*/
+
+
+/*======== FOOTER ========*/
+footer {
+    background-color: #383838;
+    padding: 1rem 2rem 3rem;
+}
+footer img {
+    height: 3.5rem;
+    margin: 1.5rem auto;
+
+}
+
+
+/*======== SOCKET ========*/
+.socket {
+    background-color: #222222;
+    border-top: .1rem solid #4981b3;
+}
+
+/*======== MEDIA QUERIES ========*/
+@media (max-width: 1199.98px) {
+
+}
+
+/*====CONTACT PAGE===*/
+
+input  { 
+    margin-bottom:20px; 
+    align-items: center;
+}
+
+textarea  { 
+    margin-bottom:20px; 
+    width: 80%;
+    height: 150px;
+    align-items: center;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    
+}
+
+.f1  {
+       min-width: 80%;
+}
+
+.f3 {
+    resize: none;
+}
+.add {
+    margin-bottom: 20px;
+    text-align: justify;
+    justify-content: center;
+}
+.bg {
+    background-color: #0b0c46;
+}
+.cl {
+    color: #0b0c46;
+}
+
+
+
+
+
+/*======== Fixed Background Image ========*/
+.fixed-background {
+    position: relative;
+    width: 100%;
+    z-index: 1000!important;
+}
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -999 !important;
+}
+.fixed {
+    z-index: -999 !important;
+    display: block;
+    top: 0;
+    left: 0;
+}
